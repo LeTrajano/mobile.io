@@ -384,7 +384,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
+ appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -442,7 +442,7 @@ legend + * {
 
 [type=search] {
   outline-offset: -2px;
-  -webkit-appearance: textfield;
+  appearance: textfield;
 }
 
 /* rtl:raw:
@@ -460,10 +460,10 @@ legend + * {
 ::-webkit-color-swatch-wrapper {
   padding: 0;
 }
-
+P
 ::file-selector-button {
   font: inherit;
-  -webkit-appearance: button;
+  appearance: button;
 }
 
 output {
@@ -7726,7 +7726,7 @@ textarea.form-control-lg {
 }
 
 .p-5 {
-  padding: 3rem !important;
+  padding: 1rem !important;
 }
 
 .px-0 {
@@ -10937,8 +10937,8 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: 
 }
+
 .cta .cta-inner {
   position: relative;
   padding: 3rem;
